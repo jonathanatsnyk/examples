@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Example demonstrates how to setup a simple HTTP GET endpoint with OpenWhisk.",
   "dependencies": {
-    "moment-timezone": "^0.5.11",
+    "moment-timezone": "^0.6.0",
     "serverless-openwhisk": ">=0.13.0"
   }
 }
