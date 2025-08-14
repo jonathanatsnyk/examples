@@ -1,4 +1,4 @@
-FROM amazonlinux
+FROM amazonlinux:2023.8.20250808.1
 WORKDIR /deploy
 RUN yum -y install make gcc*
 RUN curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
